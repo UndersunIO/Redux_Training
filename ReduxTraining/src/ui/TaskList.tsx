@@ -10,7 +10,7 @@ const TaskList: React.FC = () => {
     dispatch(removeTodo(id));
   };
 
-  const handleToggle = (id: number) => {
+  const handleFinish = (id: number) => {
     dispatch(finishTodo(id));
   };
 
@@ -25,7 +25,7 @@ const TaskList: React.FC = () => {
           >
             {todo.name}
           </span>
-          <button onClick={() => handleToggle(todo.id)}>
+          <button onClick={() => handleFinish(todo.id)}>
             {todo.isCompleted ? "Cancel" : "Complete"}
           </button>
           <button onClick={() => handleDelete(todo.id)}>Delete</button>
