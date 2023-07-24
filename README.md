@@ -2,7 +2,10 @@
 
 ### Description
 
-Projet d'expérimentation de Redux ToolKit.
+Projet d'expérimentation TodoApp avec Redux ToolKit.
+Experimentation DDD (Domain Driven Design)
+
+Inspiration Design : Itcrowd.
 
 ### Config
 
@@ -34,6 +37,8 @@ yarn test
 yarn build
 ```
 
+https://rtk-training.vercel.app/
+
 ## Architecture DDD (débutant)
 
 Domain: Contient la logique métier.
@@ -44,3 +49,5 @@ Nous allons y placer notre store Redux.
 
 UI : Contient l'affichage de l'interface utilisateur.
 Nous y mettrons nos composants React.
+
+Infrastructure: Contient la logique de persistance des données. (ici localStorage)
