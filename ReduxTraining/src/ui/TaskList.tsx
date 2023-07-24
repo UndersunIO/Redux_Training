@@ -28,7 +28,7 @@ const TaskList: React.FC = () => {
           <button onClick={() => handleFinish(todo.id)}>
             {todo.isCompleted ? "Cancel" : "Complete"}
           </button>
-          <button onClick={() => handleDelete(todo.id)}>Delete</button>
+          <button onClick={() => handleDelete(todo.id)}>X</button>
         </li>
       ))}
     </ul>
