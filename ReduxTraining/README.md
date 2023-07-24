@@ -1,27 +1,46 @@
-# React + TypeScript + Vite
+## Redux training
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Description
 
-Currently, two official plugins are available:
+Projet d'expérimentation de Redux ToolKit.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Config
 
-## Expanding the ESLint configuration
+Vite, Typescript (100%Strict), React, React-Redux, Redux Toolkit, jest, eslint, prettier
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### Récupération et installation du projet
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
+```bash
+git clone https://github.com/UndersunIO/Redux_Training
+cd ReduxTraining
+yarn install
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+### Démarrage
+
+```bash
+yarn dev
+```
+
+### Test
+
+```bash
+yarn test
+```
+
+### Build
+
+```bash
+yarn build
+```
+
+## Architecture DDD (débutant)
+
+Domain: Contient la logique métier.
+Sur ce projet de TodoApp, notre modèle Todo et nos actions version RTK todoSlice.ts.
+
+Application: Contient la logique d'app.
+Nous allons y placer notre store Redux.
+
+UI : Contient l'affichage de l'interface utilisateur.
+Nous y mettrons nos composants React.
