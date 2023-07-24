@@ -1,13 +1,17 @@
-import AddTask from "./AddTask";
-import TaskList from "./TaskList";
+import AddTask from "./application/AddTask";
+import TaskList from "./ui/TaskList";
+import FinishedTask from "./ui/FinishedTask";
 import "./App.css";
 
 const App: React.FC = () => {
   return (
     <main className="container">
-      <h1 className="header">Todo List Day 001</h1>
-      <AddTask />
-      <TaskList />
+      <div className="display">
+        <h1 className="header">TodoAppTS Day001 with RTK</h1>
+        <AddTask />
+        <TaskList />
+      </div>
+      <FinishedTask />
     </main>
   );
 };

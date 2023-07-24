@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useDispatch } from "react-redux";
-import { addTodo } from "./todoSlice";
+import { addTodo } from "../domain/todoSlice";
 
 const AddTask: React.FC = () => {
   const [name, setName] = useState("");
