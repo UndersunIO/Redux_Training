@@ -1,4 +1,4 @@
-import AddTask from "./application/AddTask";
+import AddTask from "./ui/AddTask";
 import TaskList from "./ui/TaskList";
 import FinishedTask from "./ui/FinishedTask";
 import "./App.css";
