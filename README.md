@@ -39,8 +39,6 @@ yarn build
 
 https://rtk-training.vercel.app/
 
-## Architecture DDD (débutant)
-
 Domain: Contient la logique métier.
 Sur ce projet de TodoApp, notre modèle Todo et nos actions version RTK todoSlice.ts.
 
