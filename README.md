@@ -3,7 +3,6 @@
 ### Description
 
 Projet d'expérimentation TodoApp avec Redux ToolKit.
-Experimentation DDD (Domain Driven Design)
 
 Inspiration Design : Itcrowd.
 
